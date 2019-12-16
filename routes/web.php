@@ -11,12 +11,10 @@
 |
 */
 
-Route::resource('post', 'PostsController');
-
 Route::get('/', function (){
     return "Hi";
 });
 
-Route::get('/{name}', function ($name){
-    return view('home', compact('name'));
-});
+//Route::get('/{name}', function ($name){
+//    return view('home', compact('name'));
+//});
